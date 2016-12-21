@@ -1,28 +1,28 @@
 ##border
 
 ### border-width
-1. border-width不支持百分比值，border-width不会因为设备大比例就变大。
+* border-width不支持百分比值，border-width不会因为设备大比例就变大。
 类似outline、box-shadow、text-shadow...
-2. border-width支持关键字：thin 1px、medium（默认）3px、thick 5px。
+* border-width支持关键字：thin 1px、medium（默认）3px、thick 5px。
 默认为medium 3px，推测boder-style：double时，border-width设置为3px才有效果
 
 ### border-style
-3. border-style: solid 实线
-```
-// 实现箭头朝右的三角icon
-.triangle {
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-left: solid 10px;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid transparent;
-}
-<div class="triangle"></div>
-```
-4. border-style: dashed 虚线。在chrome、Firefox上，每个虚线点的宽高比是3:1，每个虚线点之间的距离和虚线点的宽度比是1:1,
+* border-style: solid 实线
+    ```
+    // 实现箭头朝右的三角icon
+    .triangle {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: solid 10px;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+    }
+    <div class="triangle"></div>
+    ```
+* border-style: dashed 虚线。在chrome、Firefox上，每个虚线点的宽高比是3:1，每个虚线点之间的距离和虚线点的宽度比是1:1,
 在ie上每个虚线点的宽高比是2:1,每个虚线点之间的距离和虚线点的宽度比是1:2。
-5. border-style: dotted 点线。在chrome，点线的点是方的。在ie、Firefox上下是圆的。
+* border-style: dotted 点线。在chrome，点线的点是方的。在ie、Firefox上下是圆的。
 ```
 // 利用ie的点是圆的，制作圆效果
 .box {
@@ -40,7 +40,7 @@
     <div class="dotted"></div>
 </div>
 ```
-6. border-style: double 双线。
+* border-style: double 双线。
 ```
 // 双线计算规则：双线宽度永远相等，中间间隔正负加1
 1px: 0 + 1 + 1
@@ -63,11 +63,11 @@
 }
 <div class="double"></div>
 ```
-7. border-style: inset 内凹。
-8. border-style: outset 外凸。
+* border-style: inset 内凹。
+* border-style: outset 外凸。
 
 ### border与color
-9. border-color就是color，没有指定border-color颜色值时，会使用color作为边框颜色值。类似box-shadow、text-shadow...
+* border-color就是color，没有指定border-color颜色值时，会使用color作为边框颜色值。类似box-shadow、text-shadow...
 ```
 // 利用color作为边框颜色值，制作当鼠标悬浮在div上时，边框和div内字体同时变色
 .color {
@@ -83,7 +83,7 @@
 ```
 
 ### border与background
-10. background只能相对于左上角数值定为，不能相对右下角。
+* background只能相对于左上角数值定为，不能相对右下角。
 ```
 // background背景图相对右下角
 .background {
@@ -98,10 +98,10 @@
 ```
 
 ### border与透明边框
-11. border边框透明始于ie7，兼容性好。
+* border边框透明始于ie7，兼容性好。
 
 ### border与布局
-12. 等高布局
+* 等高布局
 ```
 // 利用border实现等高布局实现原理，局限不支持百分比宽度
 .box {
