@@ -8,18 +8,18 @@
 
 ### border-style
 * border-style: solid 实线
-    ```
-    // 实现箭头朝右的三角icon
-    .triangle {
-        width: 0;
-        height: 0;
-        border-top: 10px solid transparent;
-        border-left: solid 10px;
-        border-bottom: 10px solid transparent;
-        border-right: 10px solid transparent;
-    }
-    <div class="triangle"></div>
-    ```
+```
+// 实现箭头朝右的三角icon
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: solid 10px;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+<div class="triangle"></div>
+```
 * border-style: dashed 虚线。在chrome、Firefox上，每个虚线点的宽高比是3:1，每个虚线点之间的距离和虚线点的宽度比是1:1,
 在ie上每个虚线点的宽高比是2:1,每个虚线点之间的距离和虚线点的宽度比是1:2。
 * border-style: dotted 点线。在chrome，点线的点是方的。在ie、Firefox上下是圆的。
