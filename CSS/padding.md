@@ -55,7 +55,7 @@
 ```
 测试断行
 <span style="width: 100px; height: 200px; padding: 80%; background: #3c1">格式修改<div>
-``
+```
 
 ### 空inline元素与padding宽高也不等
 * inline元素垂直padding会让“幽灵空白节点”出现，就是规范中的strut出现，可用font-size:0处理。
