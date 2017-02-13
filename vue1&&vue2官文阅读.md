@@ -99,15 +99,12 @@ Vue.component('my-component', {
 * `v-show`是改变的display属性，`v-show` 不支持 <template> 语法。
 * `v-else` 指令给 `v-if` 或 `v-show` 添加一个 “else 块”。
 * v-show用在组件上时:
-
 ```html
 <custom-component v-show="condition"></custom-component>  // 不要这样用
 <p v-else>这可能也是一个组件</p>  // 要这样用
-
 <custom-component v-show="condition"></custom-component>
 <p v-show="!condition">这可能也是一个组件</p>
 ```
-
 * (vue2文档)，Vue 尝试尽可能高效的渲染元素，通常会复用已有元素而不是从头开始渲染。
 ```html
 // 个模版由于使用了相同的元素，<input> 会被复用，仅仅是替换了他们的 placeholder
@@ -119,7 +116,6 @@ Vue.component('my-component', {
   <label>Email</label>
   <input placeholder="Enter your email address">
 </template>
-
 // 不想复用元素时，可以在元素添加属性key，保证元素唯一性
 <template v-if="loginType === 'username'">
   <label>Username</label>
