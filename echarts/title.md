@@ -12,7 +12,7 @@ title: {
         fontStyle: 'italic',  // 主标题文字字体的风格('normal', 'italic', 'oblique')
         fontWeight: 'bold',  // 主标题文字字体的粗细('normal', 'bold', 'bolder', 'lighter', 100 | 200 | 300 | 400...)
         fontFamily: '仿宋',  // 主标题文字的字体系列
-        fontSize: '18px'  // 主标题文字的字体大小
+        fontSize: 18  // 主标题文字的字体大小
     },
     textAlign: 'left',  // 标题文本水平对齐，支持 'left', 'center', 'right'，默认根据标题位置决定
     textBaseline: 'top', //标题文本垂直对齐，支持 'top', 'middle', 'bottom'，默认根据标题位置决定
@@ -24,7 +24,7 @@ title: {
         fontStyle: 'oblique',  // 副标题文字字体的风格:'normal'、'italic'、'oblique'
         fontWeight: 'bolder',  // 副标题文字字体的粗细:'normal'、'bold'、'bolder'、'lighter'、100 | 200 | 300 | 400...
         fontFamily: '宋体',  // 副标题文字的字体系列
-        fontSize: '20px'  // 副标题文字的字体大小
+        fontSize: 20  // 副标题文字的字体大小
     },
     padding: 20,  // 标题内边距，单位px,默认各方向内边距为5，接受数组分别设定上右下左边距
     itemGap: 30,  // 主副标题之间的间距
@@ -36,11 +36,10 @@ title: {
     bottom: 100,  // grid 组件离容器下侧的距离
     backgroundColor: '#00ffff',  // 标题背景色，默认透明
     borderColor: '#00ff00',  // 标题的边框颜色
-    borderWidth: '2',  // 标题的边框线宽
+    borderWidth: 2,  // 标题的边框线宽
     shadowBlur:  10,  // 图形阴影的模糊大小,该属性配合 shadowColor,shadowOffsetX, shadowOffsetY 一起设置图形的阴影效果,此配置项生效的前提是，设置了 show: true 以及值不为 tranparent 的背景色 backgroundColor
     shadowColor: '#0000ff', //阴影颜色,此配置项生效的前提是，设置了 show: true
     shadowOffsetX: 10,  // 阴影水平方向上的偏移距离,此配置项生效的前提是，设置了 show: true
     shadowOffsetY: 20,  // 阴影垂直方向上的偏移距离,此配置项生效的前提是，设置了 show: true
-
 }
 ```
