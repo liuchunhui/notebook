@@ -1,7 +1,6 @@
 ### 图例组件
 
-图例组件展现了不同系列的标记(symbol)，颜色和名字,ECharts 3 中单个 echarts 实例中可以存在多个图例组件.
-
+图例组件展现了不同系列的标记(symbol)，颜色和名字,ECharts 3 中单个 echarts 实例中可以存在多个图例组件.legend可以为[],里面几个{}元素，产生几组图例。
 ```js
 legend: {
     show: true,
