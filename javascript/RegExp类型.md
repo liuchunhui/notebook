@@ -3,9 +3,9 @@
 ---
 
 ### 语法
-var expression = / pattern / flags
+```var expression = / pattern / flags```
 
-pattern: 模式部分，正则表达式
+pattern: 模式部分，正则表达式  
 flag: 标志，标明正则表达式匹配行为，可以同时写多种模式exp = /(\w)st/igw
 三种模式：
 
