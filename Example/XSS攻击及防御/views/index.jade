@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div  !{xss}
+
+  textarea(name="name", rols="8", cols="80", id="txt")
+  button(type="button", name="button", id="btn")
+    评论
+  button(type="button", name="button", id="get")
+    获取评论
+
+  将输入的评论在此处展示：
